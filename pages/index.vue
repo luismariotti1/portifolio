@@ -6,8 +6,8 @@
       >
         <h1 class="text-xl">Olá, aqui é Luis</h1>
         <img
-          class="w-32 h-32 rounded-full border-4 border-black"
-          src="images/IMG_7609.JPG"
+          class="w-32 h-32 rounded-full border-4 border-black object-cover object-top"
+          src="/img/IMG_7609.jpeg"
         />
         <p class="text-lg text-balance w-full text-center">
           Sou desenvolvedor fullstack, apaixonado por tecnologia e programação.
