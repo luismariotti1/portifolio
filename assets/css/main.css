@@ -3,9 +3,7 @@
 @tailwind utilities;
 
 html,
-body,
-#__nuxt,
-#__layout {
+body {
   @apply h-full;
   @apply bg-black;
 }
