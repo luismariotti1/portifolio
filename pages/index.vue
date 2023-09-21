@@ -42,4 +42,14 @@
     <h2>Código</h2>
     <h2 class="text-primary-300 py-4 text-2xl">Principais Habilidades</h2>
   </div>
+  <img
+    src="/img/Polygon1.png"
+    class="absolute bottom-[20vw] left-[10vw] pointer-events-none hidden sm:block"
+    alt="Triangle 2"
+  />
+  <img
+    src="/img/Polygon2.png"
+    class="absolute top-[12vw] right-[4vw] pointer-events-none hidden sm:block"
+    alt="Triangle 2"
+  />
 </template>
