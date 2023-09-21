@@ -3,7 +3,9 @@
 @tailwind utilities;
 
 html,
-body {
+body,
+#__nuxt,
+#__layout {
   @apply h-full;
   @apply bg-surface-100;
 }
