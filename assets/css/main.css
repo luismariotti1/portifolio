@@ -7,5 +7,5 @@ body,
 #__nuxt,
 #__layout {
   @apply h-full;
-  @apply bg-surface-100;
+  @apply bg-surface-300;
 }

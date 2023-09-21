@@ -1,7 +1,7 @@
 <template>
-  <div class="h-full flex flex-col justify-between items-center">
+  <div class="h-full w-full flex flex-col justify-between items-center">
     <div
-      class="flex flex-col items-center w-full gap-2 py-4 md:flex-row md:py-20 md:w-2/3 md:gap-10"
+      class="flex flex-col md:flex-row gap-4 md:gap-8 w-full md:w-3/4 h-full md:h-3/4 justify-center items-center"
     >
       <div
         class="w-28 h-28 overflow-hidden rounded-full md:w-40 md:h-40 flex-none md:order-last"
@@ -10,9 +10,9 @@
       </div>
       <div class="flex flex-col text-center gap-4">
         <h1 class="text-primary-300 text-4xl">Olá, Sou Luís Mariotti</h1>
-        <h2 class="text-text-200 text-xl">
+        <h2 class="text-secundary-200 text-xl">
           Desenvolvedor full stack, apaixonado por tecnologia e pronto para
-          tornar suas ideias realidade.
+          tornar ideias em realidade.
         </h2>
         <div class="flex w-full gap-4 justify-center">
           <div
@@ -39,7 +39,7 @@
         </div>
       </div>
     </div>
-    <h1>Código</h1>
-    <h1>Principais Habilidades</h1>
+    <h2>Código</h2>
+    <h2 class="text-primary-300 py-4 text-2xl">Principais Habilidades</h2>
   </div>
 </template>
