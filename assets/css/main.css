@@ -5,5 +5,5 @@
 html,
 body {
   @apply h-full;
-  @apply bg-black;
+  @apply bg-surface-100;
 }
