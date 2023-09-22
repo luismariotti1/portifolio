@@ -1,11 +1,9 @@
 <template>
-  <div class="flex h-full flex-col p-6">
-    <div class="">
-      <div class="flex h-[95vh] flex-col items-center justify-between">
-        <HomeHello />
-        <HomeCode />
-        <h2 class="text-2xl text-primary-300">Principais Habilidades</h2>
-      </div>
+  <div class="flex flex-col p-6">
+    <div class="flex flex-col items-center gap-8">
+      <HomeHello />
+      <HomeCode />
+      <h2 class="text-2xl text-primary-300">Principais Habilidades</h2>
     </div>
     <div>test</div>
     <div>test2</div>
