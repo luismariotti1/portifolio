@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col p-6">
-    <div class="flex flex-col items-center gap-8">
+    <div class="flex h-[80vh] flex-col items-center justify-between gap-4">
       <HomeHello />
       <HomeCode />
       <h2 class="text-2xl text-primary-300">Principais Habilidades</h2>
