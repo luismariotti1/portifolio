@@ -8,17 +8,19 @@
         <h2 class="text-2xl text-primary-300">Principais tecnologias</h2>
         <div class="rounded-md bg-surface-100 bg-opacity-60">
           <div>
-            <div class="flex flex-col items-center justify-center p-4">
-              <strong class="capitalize text-accent-200">Front-end</strong>
-              <ul>
-                <li class="flex items-center gap-2">
-                  <nuxt-icon name="html5" /> HTML
+            <div class="flex flex-col items-center justify-center gap-4 p-4">
+              <strong class="text-lg capitalize text-accent-100"
+                >Front-end</strong
+              >
+              <ul class="flex flex-row gap-2">
+                <li>
+                  <img class="h-16" src="/svg/html5.svg" alt="html5" />
                 </li>
                 <li class="flex items-center gap-2">
-                  <nuxt-icon name="css3" /> CSS
+                  <img class="h-16" src="/svg/css3.svg" alt="css3" />
                 </li>
                 <li class="flex items-center gap-2">
-                  <nuxt-icon name="vuejs" /> Vue.js
+                  <img class="h-14" src="/svg/js.svg" alt="javascript" />
                 </li>
               </ul>
             </div>
