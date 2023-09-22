@@ -4,43 +4,60 @@
       <div
         class="font-semibol flex w-full flex-col items-center justify-center p-2 text-white"
       >
-        <div class="flex w-full gap-2">
-          <span>1.</span>
-          <strong class="flex-grow text-center text-accent-100">
-            <strong class="text-accent-200">{{ "new class " }}</strong>
-            <strong>{{ "Programmer {" }}</strong>
+        <div class="flex-grow text-center">
+          <strong class="typewriter text-accent-200">
+            {{ "new class Programmer {" }}
           </strong>
-        </div>
-        <div class="flex w-full gap-2">
-          <span>2.</span>
-          <strong class="flex-grow text-center text-accent-100">
-            <strong class="text-accent-200">{{ "constructor" }}</strong>
-            {{ "() {" }}
+          <br />
+          <strong
+            class="typewriter text-accent-200"
+            style="animation-delay: 1.8s"
+          >
+            {{ "constructor() {" }}
           </strong>
-        </div>
-        <div class="flex w-full gap-2">
-          <span>3.</span>
-          <strong class="flex-grow text-center text-accent-100">
-            <strong class="text-accent-200">{{ "this" }}</strong>
-            {{ ".name = " }}
-            <strong class="text-accent-200">{{ "“Luís”" }}</strong>
+          <br />
+          <strong
+            class="typewriter text-accent-200"
+            style="animation-delay: 2.9s"
+          >
+            {{ "this.name = 'Luís Mariotti'" }}
           </strong>
-        </div>
-        <div class="flex w-full gap-2">
-          <span>4.</span>
-          <strong class="flex-grow text-center text-accent-100">
-            <strong class="text-accent-200">{{ "this" }}</strong>
-            {{ ".skills = " }}
-            <strong class="text-accent-200">{{ "[“Front”, “Back”]" }}</strong>
+          <br />
+          <strong
+            class="typewriter text-accent-200"
+            style="animation-delay: 4.5s"
+          >
+            {{ "this.skills = ['Front', 'Back']" }}
           </strong>
-        </div>
-        <div class="flex w-full gap-2">
-          <span>5.</span>
-          <strong class="flex-grow text-center text-accent-100">{{
-            "} }"
-          }}</strong>
+          <br />
+          <strong
+            class="typewriter text-accent-200"
+            style="animation-delay: 6.2s"
+          >
+            {{ "} }" }}
+          </strong>
         </div>
       </div>
     </div>
   </div>
 </template>
+
+<style>
+.typewriter {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 0;
+  animation: type 1.8s steps(40, end) forwards;
+  animation-fill-mode: forwards;
+}
+
+@keyframes type {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+</style>
