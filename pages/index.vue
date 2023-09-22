@@ -1,12 +1,10 @@
 <template>
-  <div class="flex flex-col p-6">
-    <div class="flex h-[80vh] flex-col items-center justify-between gap-4">
+  <div class="flex h-full flex-col p-6">
+    <div class="flex flex-col items-center gap-10">
       <HomeHello />
       <HomeCode />
       <h2 class="text-2xl text-primary-300">Principais Habilidades</h2>
     </div>
-    <div>test</div>
-    <div>test2</div>
   </div>
 
   <!-- <img
