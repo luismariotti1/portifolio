@@ -3,7 +3,7 @@
     <div
       class="h-28 w-28 flex-none overflow-hidden rounded-full md:order-last md:h-40 md:w-40"
     >
-      <img src="/img/IMG_7609.jpeg" />
+      <img src="/img/foto.jpg" />
     </div>
     <div class="flex flex-col gap-4 text-center">
       <h1 class="text-4xl text-primary-300">Olá, Sou Luís Mariotti</h1>
