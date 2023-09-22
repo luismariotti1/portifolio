@@ -1,4 +1,4 @@
 <template>
-  <PageHeader class="sm:block hidden" />
+  <PageHeader class="hidden sm:block" />
   <NuxtPage />
 </template>

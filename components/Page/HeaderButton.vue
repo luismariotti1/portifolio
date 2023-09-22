@@ -1,8 +1,6 @@
 <template>
   <li>
-    <a
-      >{{ text }}
-    </a>
+    <a>{{ text }} </a>
   </li>
 </template>
 

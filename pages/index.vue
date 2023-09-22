@@ -1,12 +1,12 @@
 <template>
-  <div class="flex flex-col h-full p-6">
+  <div class="flex h-full flex-col p-6">
     <div class="">
       <div
-        class="min-h-screen flex flex-col items-center justify-between gap-4"
+        class="flex min-h-screen flex-col items-center justify-between gap-4"
       >
         <HomeHello />
         <div class="w-full p-8">
-          <div class="bg-primary-300 rounded-md bg-opacity-60">
+          <div class="rounded-md bg-primary-300 bg-opacity-60">
             <h2 class="text-center">
               class Person { <br />
               constructor () { <br />
@@ -15,7 +15,7 @@
             </h2>
           </div>
         </div>
-        <h2 class="text-primary-300 py-4 text-2xl">Principais Habilidades</h2>
+        <h2 class="py-4 text-2xl text-primary-300">Principais Habilidades</h2>
       </div>
     </div>
     <div>test</div>
