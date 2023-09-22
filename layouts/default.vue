@@ -1,6 +1,4 @@
 <template>
-  <div class="flex flex-col h-full">
-    <PageHeader />
-    <NuxtPage />
-  </div>
+  <PageHeader class="sm:block hidden" />
+  <NuxtPage />
 </template>

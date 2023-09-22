@@ -1,48 +1,28 @@
 <template>
-  <div class="h-full w-full flex flex-col justify-between items-center">
-    <div
-      class="flex flex-col md:flex-row gap-4 md:gap-8 w-full md:w-3/4 h-full md:h-3/4 justify-center items-center"
-    >
+  <div class="flex flex-col h-full p-6">
+    <div class="">
       <div
-        class="w-28 h-28 overflow-hidden rounded-full md:w-40 md:h-40 flex-none md:order-last"
+        class="min-h-screen flex flex-col items-center justify-between gap-4"
       >
-        <img src="/img/IMG_7609.jpeg" />
-      </div>
-      <div class="flex flex-col text-center gap-4">
-        <h1 class="text-primary-300 text-4xl">Olá, Sou Luís Mariotti</h1>
-        <h2 class="text-secundary-200 text-xl">
-          Desenvolvedor full stack, apaixonado por tecnologia e pronto para
-          tornar ideias em realidade.
-        </h2>
-        <div class="flex w-full gap-4 justify-center">
-          <div
-            class="flex gap-2 text-center items-center bg-primary-300 p-2 rounded-md"
-          >
-            <span class="text-[3vw] sm:text-[2vw] md:text-[1.75vw] lg:text-lg"
-              >Habilidades ></span
-            >
-          </div>
-          <div
-            class="flex gap-2 text-center items-center bg-primary-300 p-2 rounded-md"
-          >
-            <span class="text-[3vw] sm:text-[2vw] md:text-[1.75vw] lg:text-lg"
-              >Projetos ></span
-            >
-          </div>
-          <div
-            class="flex gap-2 text-center items-center bg-primary-300 p-2 rounded-md"
-          >
-            <span class="text-[3vw] sm:text-[2vw] md:text-[1.75vw] lg:text-lg"
-              >Contato ></span
-            >
+        <HomeHello />
+        <div class="w-full p-8">
+          <div class="bg-primary-300 rounded-md bg-opacity-60">
+            <h2 class="text-center">
+              class Person { <br />
+              constructor () { <br />
+              this.name = “Luís” <br />
+              this.skills = [“Front”, “Back”]<br />} }
+            </h2>
           </div>
         </div>
+        <h2 class="text-primary-300 py-4 text-2xl">Principais Habilidades</h2>
       </div>
     </div>
-    <h2>Código</h2>
-    <h2 class="text-primary-300 py-4 text-2xl">Principais Habilidades</h2>
+    <div>test</div>
+    <div>test2</div>
   </div>
-  <img
+
+  <!-- <img
     src="/img/Polygon1.png"
     class="absolute pointer-events-none hidden trianglePosition1 hideTriangle"
     alt="Triangle 2"
@@ -51,7 +31,7 @@
     src="/img/Polygon2.png"
     class="absolute trianglePosition2 pointer-events-none hidden hideTriangle"
     alt="Triangle 2"
-  />
+  /> -->
 </template>
 
 <style>
