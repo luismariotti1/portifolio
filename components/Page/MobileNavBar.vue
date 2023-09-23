@@ -11,11 +11,19 @@
     </div>
     <div v-if="showNav">
       <div class="fixed z-40 h-full w-full bg-surface-100 bg-opacity-90">
-        <div class="flex h-full flex-col gap-4 px-6 py-12">
-          <div class="text-accent-200">Sobre</div>
-          <div class="text-accent-200">Tecnologias</div>
-          <div class="text-accent-200">Projetos</div>
-          <div class="text-accent-200">Contato</div>
+        <div class="flex h-full flex-col gap-4 px-6 py-16">
+          <div class="rounded-md bg-surface-300 p-2">
+            <div class="ml-2 text-accent-200">Sobre</div>
+          </div>
+          <div class="rounded-md bg-surface-300 p-2">
+            <div class="ml-2 text-accent-200">Tecnologias</div>
+          </div>
+          <div class="rounded-md bg-surface-300 p-2">
+            <div class="ml-2 text-accent-200">Projetos</div>
+          </div>
+          <div class="rounded-md bg-surface-300 p-2">
+            <div class="ml-2 text-accent-200">Contato</div>
+          </div>
         </div>
       </div>
     </div>
@@ -24,7 +32,7 @@
 
 <script>
 export default {
-  name: "MobileNavBar",
+  name: "PageMobileNavBar",
   data() {
     return {
       showNav: false,
