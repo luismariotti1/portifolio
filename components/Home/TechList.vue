@@ -60,6 +60,41 @@
           </div>
         </div>
       </div>
+      <div class="rounded-md bg-surface-100 bg-opacity-60">
+        <div class="flex flex-col items-center justify-center gap-4 p-4">
+          <strong class="text-xl uppercase text-accent-100"
+            >Infraestrutra</strong
+          >
+          <div class="flex flex-col gap-2">
+            <ul class="flex flex-row gap-2">
+              <li>
+                <img class="h-16" src="/svg/linux.svg" alt="linux" />
+              </li>
+              <li class="flex items-center">
+                <img class="h-16" src="/svg/docker.svg" alt="docker" />
+              </li>
+              <li class="flex items-center">
+                <img class="h-16" src="/svg/aws.svg" alt="aws" />
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="rounded-md bg-surface-100 bg-opacity-60">
+        <div class="flex flex-col items-center justify-center gap-4 p-4">
+          <strong class="text-xl uppercase text-accent-100">Game Dev</strong>
+          <div class="flex flex-col gap-2">
+            <ul class="flex flex-row gap-2">
+              <li>
+                <img class="h-16" src="/svg/godot.svg" alt="godot" />
+              </li>
+              <li class="flex items-center">
+                <img class="h-16" src="/svg/unity.svg" alt="unity" />
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </template>
