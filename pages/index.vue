@@ -5,6 +5,10 @@
       <HomeCode />
       <HomeBio />
       <HomeTechList />
+      <div class="flex flex-col">
+        <h2 class="text-2xl text-primary-300">Projetos</h2>
+        <div>Antares Solar</div>
+      </div>
     </div>
   </div>
 </template>

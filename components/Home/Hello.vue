@@ -10,27 +10,21 @@
         estou sempre pronto para transformar suas ideias em realidade
       </h2>
       <div class="flex w-full justify-center gap-4">
-        <!-- <div
+        <div
           class="flex items-center gap-2 rounded-md bg-primary-300 p-2 text-center"
         >
-          <span class="text-[3.5vw] sm:text-[2vw] md:text-[1.75vw] lg:text-lg"
-            >Mais sobre mim ></span
-          >
+          <Icon name="grommet-icons:github" color="black" class="h-6 w-6" />
         </div>
         <div
           class="flex items-center gap-2 rounded-md bg-primary-300 p-2 text-center"
         >
-          <span class="text-[3vw] sm:text-[2vw] md:text-[1.75vw] lg:text-lg"
-            >Projetos ></span
-          >
+          <Icon name="grommet-icons:linkedin" color="black" class="h-6 w-6" />
         </div>
         <div
           class="flex items-center gap-2 rounded-md bg-primary-300 p-2 text-center"
         >
-          <span class="text-[3vw] sm:text-[2vw] md:text-[1.75vw] lg:text-lg"
-            >Contato ></span
-          >
-        </div> -->
+          <Icon name="grommet-icons:mail" color="black" class="h-6 w-6" />
+        </div>
       </div>
     </div>
   </div>
