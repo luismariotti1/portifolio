@@ -1,7 +1,9 @@
 <template>
-  <div class="flex flex-col gap-4">
-    <h2 class="text-2xl text-primary-300">Principais tecnologias</h2>
-    <div class="flex flex-col gap-4" style="overflow-x: hidden">
+  <div class="flex w-full flex-col gap-4">
+    <h2 class="text-center text-2xl text-primary-300">
+      Principais tecnologias
+    </h2>
+    <div class="flex w-full flex-col gap-4 p-2" style="overflow-x: hidden">
       <div
         data-aos="fade-right"
         data-aos-duration="800"

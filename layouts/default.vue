@@ -1,5 +1,5 @@
 <template>
-  <PageHeader class="hidden sm:block" />
-  <PageMobileNavBar class="block sm:hidden" />
+  <PageHeader class="hidden md:block" />
+  <PageMobileNavBar class="block md:hidden" />
   <NuxtPage />
 </template>

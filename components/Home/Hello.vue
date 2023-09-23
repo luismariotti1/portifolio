@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col items-center gap-4">
     <div class="h-28 w-28 flex-none overflow-hidden rounded-full">
-      <img src="/img/foto.jpg" alt="foto de perfil" />
+      <img src="/img/ProfilePicture.jpg" alt="foto de perfil" />
     </div>
     <div class="flex flex-col gap-4 text-center">
       <h1 class="text-4xl text-primary-300">Olá, Sou Luís Mariotti!</h1>
