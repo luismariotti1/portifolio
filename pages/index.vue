@@ -29,11 +29,13 @@
                 >
                   <span>Mais informações</span>
                 </div>
-                <div
-                  class="flex items-center justify-center gap-2 rounded-md bg-primary-300 p-2 text-center"
-                >
-                  <a href="">Visitar site</a>
-                </div>
+                <a href="https://antaressolar.com" target="_blank">
+                  <div
+                    class="flex items-center justify-center gap-2 rounded-md bg-primary-300 p-2 text-center"
+                  >
+                    Visitar sistemas
+                  </div>
+                </a>
               </div>
             </div>
           </div>
