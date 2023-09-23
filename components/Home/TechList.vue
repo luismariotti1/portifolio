@@ -9,8 +9,8 @@
       >
         <div class="flex flex-col items-center justify-center gap-4 p-4">
           <strong class="text-xl uppercase text-accent-100">Front-end</strong>
-          <div class="flex flex-col gap-2">
-            <ul class="flex flex-row gap-2">
+          <div class="flex flex-col gap-3">
+            <ul class="flex flex-row gap-3">
               <li>
                 <img class="h-16" src="/svg/html5.svg" alt="html5" />
               </li>
@@ -21,7 +21,7 @@
                 <img class="h-16" src="/svg/tailwind.svg" alt="tailwind" />
               </li>
             </ul>
-            <ul class="flex flex-row gap-2">
+            <ul class="flex flex-row gap-3">
               <li class="flex items-center">
                 <img class="h-14" src="/svg/js.svg" alt="javascript" />
               </li>
@@ -42,8 +42,8 @@
       >
         <div class="flex flex-col items-center justify-center gap-4 p-4">
           <strong class="text-xl uppercase text-accent-100">Back-end</strong>
-          <div class="flex flex-col gap-2">
-            <ul class="flex flex-row gap-2">
+          <div class="flex flex-col gap-3">
+            <ul class="flex flex-row gap-3">
               <li>
                 <img class="h-16" src="/svg/node.svg" alt="node" />
               </li>
@@ -54,7 +54,7 @@
                 <img class="h-16" src="/svg/nestjs.svg" alt="nestjs" />
               </li>
             </ul>
-            <ul class="flex flex-row gap-2">
+            <ul class="flex flex-row gap-3">
               <li class="flex items-center">
                 <img class="h-14" src="/svg/typescript.svg" alt="typescript" />
               </li>
@@ -77,8 +77,8 @@
           <strong class="text-xl uppercase text-accent-100"
             >Infraestrutra</strong
           >
-          <div class="flex flex-col gap-2">
-            <ul class="flex flex-row gap-2">
+          <div class="flex flex-col gap-3">
+            <ul class="flex flex-row gap-3">
               <li>
                 <img class="h-16" src="/svg/linux.svg" alt="linux" />
               </li>
@@ -99,8 +99,8 @@
       >
         <div class="flex flex-col items-center justify-center gap-4 p-4">
           <strong class="text-xl uppercase text-accent-100">Game Dev</strong>
-          <div class="flex flex-col gap-2">
-            <ul class="flex flex-row gap-2">
+          <div class="flex flex-col gap-3">
+            <ul class="flex flex-row gap-3">
               <li>
                 <img class="h-16" src="/svg/godot.svg" alt="godot" />
               </li>
