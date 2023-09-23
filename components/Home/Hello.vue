@@ -6,25 +6,27 @@
     <div class="flex flex-col gap-4 text-center">
       <h1 class="text-4xl text-primary-300">Olá, Sou Luís Mariotti!</h1>
       <h2 class="text-xl text-secundary-200">
-        Um desenvolvedor full stack com uma paixão profunda por tecnologia,
-        estou sempre pronto para transformar suas ideias em realidade
+        Desenvolvedor full stack apaixonado por tecnologia, estou sempre pronto
+        para transformar suas ideias em realidade
       </h2>
       <div class="flex w-full justify-center gap-4">
-        <div
-          class="flex items-center gap-2 rounded-md bg-primary-300 p-2 text-center"
+        <a href="https://github.com/luismariotti1" target="_blank">
+          <div
+            class="flex items-center gap-2 rounded-md bg-primary-300 p-2 text-center"
+          >
+            <Icon name="grommet-icons:github" color="black" class="h-6 w-6" />
+          </div>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/luis-fernando-mariotti-paiva-7851371a2/"
+          target="_blank"
         >
-          <Icon name="grommet-icons:github" color="black" class="h-6 w-6" />
-        </div>
-        <div
-          class="flex items-center gap-2 rounded-md bg-primary-300 p-2 text-center"
-        >
-          <Icon name="grommet-icons:linkedin" color="black" class="h-6 w-6" />
-        </div>
-        <div
-          class="flex items-center gap-2 rounded-md bg-primary-300 p-2 text-center"
-        >
-          <Icon name="grommet-icons:mail" color="black" class="h-6 w-6" />
-        </div>
+          <div
+            class="flex items-center gap-2 rounded-md bg-primary-300 p-2 text-center"
+          >
+            <Icon name="grommet-icons:linkedin" color="black" class="h-6 w-6" />
+          </div>
+        </a>
       </div>
     </div>
   </div>
