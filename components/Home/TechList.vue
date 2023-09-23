@@ -2,7 +2,17 @@
   <div class="flex flex-col gap-4">
     <h2 class="text-2xl text-primary-300">Principais tecnologias</h2>
     <div class="flex flex-col gap-4">
-      <div class="rounded-md bg-surface-100 bg-opacity-60">
+      <div
+        v-motion
+        :initial="{ x: -200 }"
+        :visible="{
+          x: 0,
+          transition: {
+            duration: 400,
+          },
+        }"
+        class="rounded-md bg-surface-100 bg-opacity-60"
+      >
         <div class="flex flex-col items-center justify-center gap-4 p-4">
           <strong class="text-xl uppercase text-accent-100">Front-end</strong>
           <div class="flex flex-col gap-2">
@@ -31,7 +41,17 @@
           </div>
         </div>
       </div>
-      <div class="rounded-md bg-surface-100 bg-opacity-60">
+      <div
+        v-motion
+        :initial="{ x: 200 }"
+        :visible="{
+          x: 0,
+          transition: {
+            duration: 400,
+          },
+        }"
+        class="rounded-md bg-surface-100 bg-opacity-60"
+      >
         <div class="flex flex-col items-center justify-center gap-4 p-4">
           <strong class="text-xl uppercase text-accent-100">Back-end</strong>
           <div class="flex flex-col gap-2">
