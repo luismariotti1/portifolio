@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full px-6">
+  <div class="w-full px-2">
     <div class="rounded-md bg-surface-100 bg-opacity-60">
       <div
         class="font-semibol flex w-full flex-col items-center justify-center p-2 text-white"

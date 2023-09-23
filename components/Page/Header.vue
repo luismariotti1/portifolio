@@ -9,8 +9,6 @@
           <!-- <PageHeaderButton text="Sobre"></PageHeaderButton>
           <PageHeaderButton text="Projetos"></PageHeaderButton>
           <PageHeaderButton text="Contato"></PageHeaderButton> -->
-          <!-- <Icon name="grommet-icons:github" color="black" class="w-5 h-5" />
-          <Icon name="grommet-icons:linkedin" color="black" class="w-4 h-4" /> -->
         </ul>
       </div>
     </div>
