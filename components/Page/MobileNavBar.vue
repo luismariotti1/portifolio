@@ -34,6 +34,7 @@ const items = ref([
   { key: "bio", name: "Sobre", route: "bio" },
   { key: "tech", name: "Tecnologias", route: "tech" },
   { key: "projects", name: "Projetos", route: "projects" },
+  { key: "contact", name: "Contato", route: "contact" },
 ]);
 
 const showNav = ref(false);
