@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div @click="toggleNav" class="fixed right-3 top-3 z-50">
+    <div @click="toggleNav()" class="fixed right-3 top-3 z-50">
       <div class="rounded-md bg-primary-300">
         <Icon
           :name="!showNav ? 'ic:outline-menu' : 'ic:outline-close'"
@@ -18,14 +18,11 @@
           <div @click="navigate('Bio')" class="rounded-md bg-surface-300 p-2">
             <div class="ml-2 text-accent-200">Sobre</div>
           </div>
-          <div
-            @click="navigate('TechList')"
-            class="rounded-md bg-surface-300 p-2"
-          >
+          <div @click="navigate('tech')" class="rounded-md bg-surface-300 p-2">
             <div class="ml-2 text-accent-200">Tecnologias</div>
           </div>
           <div
-            @click="navigate('Projects')"
+            @click="navigate('projects')"
             class="rounded-md bg-surface-300 p-2"
           >
             <div class="ml-2 text-accent-200">Contato</div>
@@ -36,22 +33,16 @@
   </div>
 </template>
 
-<script>
-export default {
-  name: "PageMobileNavBar",
-  data() {
-    return {
-      showNav: false,
-    };
-  },
-  methods: {
-    toggleNav() {
-      this.showNav = !this.showNav;
-    },
-    navigate(to) {
-      this.toggleNav();
-      this.$emit("navigate", to);
-    },
-  },
-};
+<script setup>
+const showNav = ref(false);
+const navigation = useNavLink();
+
+function toggleNav() {
+  showNav.value = !showNav.value;
+}
+
+function navigate(to) {
+  navigation.value = to;
+  toggleNav();
+}
 </script>
