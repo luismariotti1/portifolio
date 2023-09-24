@@ -34,31 +34,32 @@
           </div>
         </div>
       </div>
-      <!-- <div class="rounded-md bg-surface-100 bg-opacity-60 p-4">
-            <div class="flex w-full flex-col items-center justify-center gap-2">
-              <h3 class="text-xl uppercase text-accent-100">
-                <strong>Truco Max</strong>
-              </h3>
-              <img src="/img/AntaresSolar.png" alt="projeto antares" />
-              <p class="text-justify text-accent-200">
-                Truco Max é um jogo Free to Play de truco online
-              </p>
-              <div class="flex w-full flex-col gap-2">
-                <div
-                  class="flex w-full items-center justify-center gap-2 rounded-md bg-primary-300 p-2"
-                >
-                  <span>Mais informações</span>
-                </div>
-                <a href="https://antaressolar.com" target="_blank">
-                  <div
-                    class="flex items-center justify-center gap-2 rounded-md bg-primary-300 p-2 text-center"
-                  >
-                    Visitar site
-                  </div>
-                </a>
+      <div
+        data-aos="flip-left"
+        data-aos-duration="1200"
+        class="rounded-md bg-surface-100 bg-opacity-60 p-4"
+      >
+        <div class="flex w-full flex-col items-center justify-center gap-2">
+          <h3 class="text-xl uppercase text-accent-100">
+            <strong>Geo2D</strong>
+          </h3>
+          <img src="/img/Geo2D.png" alt="projeto antares" />
+          <p class="text-justify text-accent-200">
+            Geo2D é um software de código aberto que permite que os usuários
+            criem figuras geométricas em um plano cartesiano e apliquem
+            multiplas transformações geométricas sobre elas.
+          </p>
+          <div class="flex w-full flex-col gap-2">
+            <a href="https://github.com/luismariotti1/Geo2D" target="_blank">
+              <div
+                class="flex items-center justify-center gap-2 rounded-md bg-primary-300 p-2 text-center"
+              >
+                Visitar repositório
               </div>
-            </div>
-          </div> -->
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </template>
