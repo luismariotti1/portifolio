@@ -12,10 +12,10 @@
     <div v-if="showNav">
       <div class="fixed z-40 h-full w-full bg-surface-100 bg-opacity-90">
         <div class="flex h-full flex-col gap-4 px-6 py-16">
-          <div @click="navigate('Hello')" class="rounded-md bg-surface-300 p-2">
+          <div @click="navigate('hello')" class="rounded-md bg-surface-300 p-2">
             <div class="ml-2 text-accent-200">Hello World</div>
           </div>
-          <div @click="navigate('Bio')" class="rounded-md bg-surface-300 p-2">
+          <div @click="navigate('bio')" class="rounded-md bg-surface-300 p-2">
             <div class="ml-2 text-accent-200">Sobre</div>
           </div>
           <div @click="navigate('tech')" class="rounded-md bg-surface-300 p-2">
@@ -25,7 +25,7 @@
             @click="navigate('projects')"
             class="rounded-md bg-surface-300 p-2"
           >
-            <div class="ml-2 text-accent-200">Contato</div>
+            <div class="ml-2 text-accent-200">Projetos</div>
           </div>
         </div>
       </div>

@@ -1,9 +1,9 @@
 <template>
   <div class="flex h-full flex-col p-6">
     <div class="flex flex-col items-center gap-10">
-      <HomeHello />
+      <HomeHello ref="hello" />
       <HomeCode />
-      <HomeBio />
+      <HomeBio ref="bio" />
       <HomeTechList ref="tech" />
       <HomeProjects ref="projects" />
     </div>
@@ -13,6 +13,9 @@
 <script setup>
 const navigation = useNavLink();
 const projects = ref(null);
+const tech = ref(null);
+const hello = ref(null);
+const bio = ref(null);
 
 watch(navigation, (to) => {
   try {
@@ -23,6 +26,22 @@ watch(navigation, (to) => {
 });
 
 function focusOn(element) {
-  projects.value.$el.scrollIntoView({ behavior: "smooth" });
+  navigation.value = "";
+  switch (element) {
+    case "projects":
+      projects.value.$el.scrollIntoView({ behavior: "smooth" });
+      break;
+    case "tech":
+      tech.value.$el.scrollIntoView({ behavior: "smooth" });
+      break;
+    case "bio":
+      bio.value.$el.scrollIntoView({ behavior: "smooth" });
+      break;
+    case "hello":
+      hello.value.$el.scrollIntoView({ behavior: "smooth" });
+      break;
+    default:
+      break;
+  }
 }
 </script>
