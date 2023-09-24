@@ -45,9 +45,11 @@
           </h3>
           <img src="/img/Geo2D.png" alt="projeto antares" />
           <p class="text-justify text-accent-200">
-            Geo2D é um software de código aberto que permite que os usuários
-            criem figuras geométricas em um plano cartesiano e apliquem
-            multiplas transformações geométricas sobre elas.
+            Geo2D é um software de <strong>código aberto</strong> que permite
+            que os usuários <strong>criem figuras geométricas</strong> em um
+            plano cartesiano e
+            <strong>apliquem multiplas transformações</strong> geométricas sobre
+            elas.
           </p>
           <div class="flex w-full flex-col gap-2">
             <a href="https://github.com/luismariotti1/Geo2D" target="_blank">
