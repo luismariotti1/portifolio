@@ -24,11 +24,6 @@
             >.
           </p>
           <div class="flex w-full flex-col gap-2">
-            <div
-              class="flex w-full items-center justify-center gap-2 rounded-md bg-primary-300 p-2"
-            >
-              <span>Mais informações</span>
-            </div>
             <a href="https://antaressolar.com" target="_blank">
               <div
                 class="flex items-center justify-center gap-2 rounded-md bg-primary-300 p-2 text-center"
