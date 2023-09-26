@@ -29,6 +29,9 @@ export default {
           300: "#1E2229",
         },
       },
+      screens: {
+        xs: "475px",
+      },
     },
   },
   plugins: [],

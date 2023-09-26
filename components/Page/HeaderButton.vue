@@ -1,6 +1,8 @@
 <template>
-  <li>
-    <a>{{ text }} </a>
+  <li
+    class="rounded-md p-1 hover:cursor-pointer hover:bg-surface-200 hover:text-accent-200"
+  >
+    <span>{{ text }} </span>
   </li>
 </template>
 

@@ -6,11 +6,28 @@
       </div>
       <div class="px-2">
         <ul class="flex items-center gap-6 text-center">
-          <!-- <PageHeaderButton text="Sobre"></PageHeaderButton>
-          <PageHeaderButton text="Projetos"></PageHeaderButton>
-          <PageHeaderButton text="Contato"></PageHeaderButton> -->
+          <PageHeaderButton text="Hello World" @click="navigate('hello')" />
+          <PageHeaderButton text="Sobre" @click="navigate('bio')" />
+          <PageHeaderButton text="Tecnologias" @click="navigate('tech')" />
+          <PageHeaderButton text="Projetos" @click="navigate('projects')" />
+          <PageHeaderButton text="Contato" @click="navigate('contact')" />
         </ul>
       </div>
     </div>
   </div>
 </template>
+
+<script setup>
+const navigation = useNavLink();
+const canClick = ref(true);
+
+function navigate(to) {
+  if (!canClick.value) return;
+  canClick.value = false;
+  setTimeout(() => {
+    canClick.value = true;
+  }, 500);
+
+  navigation.value = to;
+}
+</script>

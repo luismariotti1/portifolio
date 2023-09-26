@@ -5,7 +5,7 @@
       <div
         data-aos="flip-right"
         data-aos-duration="1200"
-        class="rounded-md bg-surface-100 bg-opacity-60 p-4"
+        class="rounded-md bg-surface-100 bg-opacity-40 p-4"
       >
         <div class="flex w-full flex-col items-center justify-center gap-2">
           <h3 class="text-xl uppercase text-accent-100">
@@ -37,7 +37,7 @@
       <div
         data-aos="flip-left"
         data-aos-duration="1200"
-        class="rounded-md bg-surface-100 bg-opacity-60 p-4"
+        class="rounded-md bg-surface-100 bg-opacity-40 p-4"
       >
         <div class="flex w-full flex-col items-center justify-center gap-2">
           <h3 class="text-xl uppercase text-accent-100">

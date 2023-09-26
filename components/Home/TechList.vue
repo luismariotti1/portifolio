@@ -7,7 +7,7 @@
       <div
         data-aos="fade-right"
         data-aos-duration="800"
-        class="rounded-md bg-surface-100 bg-opacity-60"
+        class="rounded-md bg-surface-100 bg-opacity-40"
       >
         <div class="flex flex-col items-center justify-center gap-4 p-4">
           <strong class="text-xl uppercase text-accent-100">Front-end</strong>
@@ -40,7 +40,7 @@
       <div
         data-aos="fade-left"
         data-aos-duration="800"
-        class="rounded-md bg-surface-100 bg-opacity-60"
+        class="rounded-md bg-surface-100 bg-opacity-40"
       >
         <div class="flex flex-col items-center justify-center gap-4 p-4">
           <strong class="text-xl uppercase text-accent-100">Back-end</strong>
@@ -73,7 +73,7 @@
       <div
         data-aos="fade-right"
         data-aos-duration="800"
-        class="rounded-md bg-surface-100 bg-opacity-60"
+        class="rounded-md bg-surface-100 bg-opacity-40"
       >
         <div class="flex flex-col items-center justify-center gap-4 p-4">
           <strong class="text-xl uppercase text-accent-100"
@@ -97,7 +97,7 @@
       <div
         data-aos="fade-left"
         data-aos-duration="800"
-        class="rounded-md bg-surface-100 bg-opacity-60"
+        class="rounded-md bg-surface-100 bg-opacity-40"
       >
         <div class="flex flex-col items-center justify-center gap-4 p-4">
           <strong class="text-xl uppercase text-accent-100">Game Dev</strong>
