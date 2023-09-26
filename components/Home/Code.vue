@@ -1,5 +1,5 @@
 <template>
-  <div class="xs:w-2/3 w-full px-2 lg:w-1/3">
+  <div class="xs:w-2/3 w-full px-2 sm:w-4/5 lg:w-1/3">
     <div class="rounded-md bg-surface-100 bg-opacity-40">
       <div
         class="font-semibol flex w-full flex-col items-center justify-center p-2 text-white"
