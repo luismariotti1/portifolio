@@ -1,9 +1,12 @@
 <template>
-  <div class="flex w-full flex-col gap-4">
+  <div class="xlg:w-2/3 flex w-full flex-col gap-4">
     <h2 class="text-center text-2xl text-primary-300">
       Principais tecnologias
     </h2>
-    <div class="flex w-full flex-col gap-4 p-2" style="overflow-x: hidden">
+    <div
+      class="xs:grid xs:grid-cols-2 flex w-full flex-col gap-4 p-2"
+      style="overflow-x: hidden"
+    >
       <div
         data-aos="fade-right"
         data-aos-duration="800"

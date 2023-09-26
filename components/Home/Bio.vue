@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col gap-4">
+  <div class="xlg:w-2/3 flex flex-col gap-4">
     <h2 class="text-center text-2xl text-primary-300">Mais sobre mim</h2>
     <div class="flex flex-col gap-4 text-justify text-secundary-200">
       <p>

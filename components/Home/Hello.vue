@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col items-center gap-4">
+  <div class="xlg:w-2/3 flex flex-col items-center gap-4">
     <div class="h-28 w-28 flex-none overflow-hidden rounded-full">
       <img src="/img/ProfilePicture.jpg" alt="foto de perfil" />
     </div>
