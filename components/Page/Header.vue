@@ -1,6 +1,8 @@
 <template>
   <div class="sticky left-0 top-0 z-50">
-    <div class="flex w-full items-center justify-between bg-primary-300 p-2">
+    <div
+      class="flex w-full items-center justify-between rounded-sm bg-primary-300 p-2"
+    >
       <div class="px-2 text-xl font-semibold capitalize">
         <span>Bem-Vindo</span>
       </div>
