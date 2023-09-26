@@ -1,6 +1,6 @@
 <template>
-  <div class="flex h-full flex-col p-6">
-    <div class="flex flex-col items-center gap-10">
+  <div class="flex h-full flex-col p-6 py-10">
+    <div class="flex flex-col items-center gap-10 md:gap-14">
       <HomeHello ref="hello" />
       <HomeCode />
       <HomeBio ref="bio" />
