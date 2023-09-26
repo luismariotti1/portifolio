@@ -4,7 +4,7 @@
       Principais tecnologias
     </h2>
     <div
-      class="xs:grid xs:grid-cols-2 flex w-full flex-col gap-4 p-2"
+      class="xs:grid xs:grid-cols-2 flex w-full flex-col gap-4"
       style="overflow-x: hidden"
     >
       <div
