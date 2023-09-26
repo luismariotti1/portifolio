@@ -8,7 +8,7 @@
         class="rounded-md bg-surface-100 bg-opacity-40 p-4"
       >
         <div
-          class="flex w-full flex-col items-center justify-center gap-6 sm:p-4"
+          class="xs:p-4 flex w-full flex-col items-center justify-center gap-6"
         >
           <h3 class="text-xl uppercase text-accent-100">
             <strong>Antares Solar</strong>
@@ -42,7 +42,7 @@
         class="rounded-md bg-surface-100 bg-opacity-40 p-4"
       >
         <div
-          class="flex w-full flex-col items-center justify-center gap-6 sm:p-4"
+          class="xs:p-4 flex w-full flex-col items-center justify-center gap-6"
         >
           <h3 class="text-xl uppercase text-accent-100">
             <strong>Geo2D</strong>
