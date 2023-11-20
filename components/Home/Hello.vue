@@ -1,7 +1,11 @@
 <template>
-  <div class="xlg:w-2/3 flex flex-col items-center gap-4">
+  <div class="flex flex-col items-center gap-4 xlg:w-2/3">
     <div class="h-28 w-28 flex-none overflow-hidden rounded-full">
-      <img src="/img/ProfilePicture.jpg" alt="foto de perfil" />
+      <NuxtImg
+        src="/img/ProfilePicture.jpg"
+        alt="foto de perfil"
+        loading="lazy"
+      />
     </div>
     <div class="flex flex-col gap-6 text-center">
       <h1 class="text-4xl text-primary-300">Olá, Sou Luís Mariotti!</h1>

@@ -1,10 +1,10 @@
 <template>
-  <div class="xlg:w-2/3 flex w-full flex-col gap-4">
+  <div class="flex w-full flex-col gap-4 xlg:w-2/3">
     <h2 class="text-center text-2xl text-primary-300">
       Principais tecnologias
     </h2>
     <div
-      class="xs:grid xs:grid-cols-2 flex w-full flex-col gap-4"
+      class="flex w-full flex-col gap-4 xs:grid xs:grid-cols-2"
       style="overflow-x: hidden"
     >
       <div
@@ -17,24 +17,54 @@
           <div class="flex flex-col gap-3">
             <ul class="flex flex-row gap-3">
               <li>
-                <img class="h-16" src="/svg/html5.svg" alt="html5" />
+                <NuxtImg
+                  class="h-16"
+                  src="/svg/html5.svg"
+                  alt="html5"
+                  loading="lazy"
+                />
               </li>
               <li class="flex items-center">
-                <img class="h-16" src="/svg/css3.svg" alt="css3" />
+                <NuxtImg
+                  class="h-16"
+                  src="/svg/css3.svg"
+                  alt="css3"
+                  loading="lazy"
+                />
               </li>
               <li class="flex items-center">
-                <img class="h-16" src="/svg/tailwind.svg" alt="tailwind" />
+                <NuxtImg
+                  class="h-16"
+                  src="/svg/tailwind.svg"
+                  alt="tailwind"
+                  loading="lazy"
+                />
               </li>
             </ul>
             <ul class="flex flex-row gap-3">
               <li class="flex items-center">
-                <img class="h-14" src="/svg/js.svg" alt="javascript" />
+                <NuxtImg
+                  class="h-14"
+                  src="/svg/js.svg"
+                  alt="javascript"
+                  loading="lazy"
+                />
               </li>
               <li class="flex items-center">
-                <img class="h-16" src="/svg/vue.svg" alt="vue" />
+                <NuxtImg
+                  class="h-16"
+                  src="/svg/vue.svg"
+                  alt="vue"
+                  loading="lazy"
+                />
               </li>
               <li class="flex items-center">
-                <img class="h-16" src="/svg/react.svg" alt="react" />
+                <NuxtImg
+                  class="h-16"
+                  src="/svg/react.svg"
+                  alt="react"
+                  loading="lazy"
+                />
               </li>
             </ul>
           </div>
@@ -50,24 +80,54 @@
           <div class="flex flex-col gap-3">
             <ul class="flex flex-row gap-3">
               <li>
-                <img class="h-16" src="/svg/node.svg" alt="node" />
+                <NuxtImg
+                  class="h-16"
+                  src="/svg/node.svg"
+                  alt="node"
+                  loading="lazy"
+                />
               </li>
               <li class="flex items-center">
-                <img class="h-16" src="/svg/laravel.svg" alt="laravel" />
+                <NuxtImg
+                  class="h-16"
+                  src="/svg/laravel.svg"
+                  alt="laravel"
+                  loading="lazy"
+                />
               </li>
               <li class="flex items-center">
-                <img class="h-16" src="/svg/nestjs.svg" alt="nestjs" />
+                <NuxtImg
+                  class="h-16"
+                  src="/svg/nestjs.svg"
+                  alt="nestjs"
+                  loading="lazy"
+                />
               </li>
             </ul>
             <ul class="flex flex-row gap-3">
               <li class="flex items-center">
-                <img class="h-14" src="/svg/typescript.svg" alt="typescript" />
+                <NuxtImg
+                  class="h-14"
+                  src="/svg/typescript.svg"
+                  alt="typescript"
+                  loading="lazy"
+                />
               </li>
               <li class="flex items-center">
-                <img class="h-16" src="/svg/php.svg" alt="vue" />
+                <NuxtImg
+                  class="h-16"
+                  src="/svg/php.svg"
+                  alt="vue"
+                  loading="lazy"
+                />
               </li>
               <li class="flex items-center">
-                <img class="h-16" src="/svg/mysql.svg" alt="react" />
+                <NuxtImg
+                  class="h-16"
+                  src="/svg/mysql.svg"
+                  alt="react"
+                  loading="lazy"
+                />
               </li>
             </ul>
           </div>
@@ -85,13 +145,13 @@
           <div class="flex flex-col gap-3">
             <ul class="flex flex-row gap-3">
               <li>
-                <img class="h-16" src="/svg/linux.svg" alt="linux" />
+                <NuxtImg class="h-16" src="/svg/linux.svg" alt="linux" />
               </li>
               <li class="flex items-center">
-                <img class="h-16" src="/svg/docker.svg" alt="docker" />
+                <NuxtImg class="h-16" src="/svg/docker.svg" alt="docker" />
               </li>
               <li class="flex items-center">
-                <img class="h-16" src="/svg/aws.svg" alt="aws" />
+                <NuxtImg class="h-16" src="/svg/aws.svg" alt="aws" />
               </li>
             </ul>
           </div>

@@ -13,7 +13,11 @@
           <h3 class="text-xl uppercase text-accent-100">
             <strong>Antares Solar</strong>
           </h3>
-          <img src="/img/AntaresSolar.png" alt="projeto antares" />
+          <NuxtImg
+            src="/img/AntaresSolar.png"
+            alt="projeto antares"
+            loading="lazy"
+          />
           <p class="text-justify text-accent-200">
             Antares Solar é um SAAS, desenvolvido para instaladoras de energia
             solar. O software oferece ao seus usuário geração de propostas de
@@ -44,7 +48,7 @@
           <h3 class="text-xl uppercase text-accent-100">
             <strong>TrucoMax</strong>
           </h3>
-          <img src="/img/TrucoMax.png" alt="projeto antares" />
+          <NuxtImg src="/img/TrucoMax.png" alt="trucomax" loading="lazy" />
           <p class="text-justify text-accent-200">
             TrucoMax é uma plataforma inovadora de jogo de cartas, desenvolvida
             com a tecnologia WebSocket para assegurar uma experiência de jogo
@@ -76,7 +80,7 @@
           <h3 class="text-xl uppercase text-accent-100">
             <strong>Geo2D</strong>
           </h3>
-          <img src="/img/Geo2D.png" alt="projeto antares" />
+          <NuxtImg src="/img/Geo2D.png" alt="geo2d" loading="lazy" />
           <p class="text-justify text-accent-200">
             Geo2D é um software de código aberto que permite que os usuários
             criem figuras geométricas em um plano cartesiano e apliquem
