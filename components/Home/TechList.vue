@@ -167,10 +167,20 @@
           <div class="flex flex-col gap-3">
             <ul class="flex flex-row gap-3">
               <li>
-                <img class="h-16" src="/svg/godot.svg" alt="godot" />
+                <NuxtImg
+                  class="h-16"
+                  src="/svg/godot.svg"
+                  alt="godot"
+                  loading="lazy"
+                />
               </li>
               <li class="flex items-center">
-                <img class="h-16" src="/svg/unity.svg" alt="unity" />
+                <NuxtImg
+                  class="h-16"
+                  src="/svg/unity.svg"
+                  alt="unity"
+                  loading="lazy"
+                />
               </li>
             </ul>
           </div>
